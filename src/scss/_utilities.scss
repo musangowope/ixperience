@@ -1,0 +1,16 @@
+.bg-pink {
+  background-color: #F9007A;
+}
+
+.white-underline {
+  @extend .pink-underline;
+  &:after {
+    border-bottom: 2px solid white !important;
+  }
+}
+
+.pink-border {
+  border: 4px solid $primary-clr;
+  border-radius: 5px;
+  background-color: white;
+}

@@ -24268,6 +24268,7 @@ input.icon-major {
 .course-facets {
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
     position: relative;
 }
 @media (max-width: 991px) {
@@ -24297,6 +24298,10 @@ input.icon-major {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+}
+
+.course-facets__icons .facet-icon {
+    margin-bottom: 20px;
 }
 @media (max-width: 991px) {
     .course-facets__icons {
